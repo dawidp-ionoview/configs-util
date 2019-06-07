@@ -1,0 +1,29 @@
+[credential]
+	helper = cache
+[alias]
+	br = branch
+	brd = branch -D
+	st = status
+	aa = add *
+	unstage = reset --soft HEAD^
+	ci = commit
+	cm = commit -m
+	amend = commit --amend
+	f = fetch
+	co = checkout
+	cob = checkout -b
+	fco = !git fetch && git checkout $1 && :
+	pl = pull
+	plo = pull origin
+	plr = pull --rebase
+	fp = !git fetch $1 && git pull $1 $2 && :
+	fpr = !git fetch $1 && git pull --rebase $1 $2 && :
+	pho = push origin
+	cp = cherry-pick
+	r = reset
+	rh = reset --hard
+	ss = stash save
+	sl = stash list
+	sd = stash drop
+	sp = stash pop
+	sa = stash apply
