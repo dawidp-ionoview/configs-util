@@ -4,6 +4,8 @@
   ],
   "extends": [
     "./tslint.core.json",
-    "./tslint.codelyzer.json"
+    "./tslint.codelyzer.json",
+    "./tslint.rxjs.json"
   ]
 }
+

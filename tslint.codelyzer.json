@@ -12,7 +12,7 @@
     "prefer-on-push-component-change-detection": false,
     "template-accessibility-alt-text": true,
     "template-accessibility-elements-content": true,
-    "template-accessibility-label-for": true,
+    "template-accessibility-label-for": false,
     "template-accessibility-tabindex-no-positive": true,
     "template-accessibility-table-scope": true,
     "template-accessibility-valid-aria": true,
@@ -44,8 +44,8 @@
     "template-conditional-complexity": false,
     "template-cyclomatic-complexity": false,
     "template-i18n": false,
-    "template-no-call-expression": true,
-    "template-use-track-by-function": true,
+    "template-no-call-expression": false,
+    "template-use-track-by-function": false,
     "use-component-selector": true,
     "use-component-view-encapsulation": true,
     "use-pipe-decorator": true,
@@ -76,3 +76,4 @@
     "prefer-inline-decorator": false
   }
 }
+
